@@ -23,6 +23,7 @@ defmodule UsersService.MixProject do
   defp deps do
     [
       {:broadway_sqs, "~> 0.6.1"},
+      {:hackney, "~> 1.17"},
       {:jason, "~> 1.2"},
       ]
   end
